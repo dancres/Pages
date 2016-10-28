@@ -31,15 +31,12 @@
 <li><a href="http://www.addsimplicity.com/adding_simplicity_an_engi/2007/05/chaotic_perspec.html">Chaotic Perspectives</a>
 	- Large scale systems are everything developers dislike - unpredictable, unordered and parallel</li>
 
-<li><a href="http://poorbuthappy.com/ease/archives/2007/04/29/3616/the-top-10-presentation-on-scaling-websites-twitter-flickr-bloglines-vox-and-more">Website Architecture</a>
-	- A collection of scalable architecture papers from various of the large websites</li>
-
 <li><a href="http://www.cidrdb.org/cidr2005/papers/P12.pdf">Data on the Outside versus Data on the Inside</a> - Pat Helland</li>	
 <li><a href="http://blogs.msdn.com/pathelland/archive/2007/05/15/memories-guesses-and-apologies/">Memories, Guesses and Apologies</a> - Pat Helland</li>
-<li><a href="http://blogs.msdn.com/pathelland/archive/2007/05/20/soa-and-newton-s-universe/">SOA and Newton's Universe</a> - Pat Helland</li>
+<li><a href="https://blogs.msdn.microsoft.com/pathelland/2007/05/20/soa-and-newtons-universe/">SOA and Newton's Universe</a> - Pat Helland</li>
 <li><a href="http://arxiv.org/abs/0909.1788">Building on Quicksand</a> - Pat Helland</li>
 <li><a href="http://www.artima.com/weblogs/viewpost.jsp?thread=4247">Why Distributed Computing?</a> - Jim Waldo</li>
-<li><a href="http://research.sun.com/techrep/1994/abstract-29.html">A Note on Distributed Computing</a> - Waldo, Wollrath et al</li>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.7628">A Note on Distributed Computing</a> - Waldo, Wollrath et al</li>
 <li><a href="https://plus.google.com/112678702228711889851/posts/eVeouesvaVX">Stevey's Google Platforms Rant</a> - Yegge's SOA platform experience</li>
 </ul>
 
@@ -49,7 +46,7 @@
 <li><a href="http://www.addsimplicity.com/adding_simplicity_an_engi/2007/02/latency_exists_.html">Latency Exists, Cope!</a>
 	- Commentary on coping with latency and it's architectural impacts</li>
 <li><a href="http://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/">Latency - the new web performance bottleneck</a> - not at all new (see <a href="http://dl.acm.org/citation.cfm?id=1022596">Patterson</a>), but noteworthy</li>
-<li><a href="http://research.google.com/pubs/pub40801.html">The Tail At Scale</a> - the latency challenges inherent in large scale systems</li>	
+<li><a href="http://research.google.com/pubs/pub40801.html">The Tail At Scale</a> - the latencychallenges inherent of dealing with latency in large scale systems</li>	
 </ul>
 
 <h2>Amazon</h2>
@@ -93,8 +90,8 @@
 <p>Key to building systems that suit their environments is finding the right tradeoff between consistency and availability.</p>
 
 <ul>
-<li><a href="http://citeseer.ist.psu.edu/544596.html">CAP Conjecture</a> - Consistency, Availability, Parition Tolerance cannot all be satisfied at once</li>
-<li><a href="http://www.cs.utexas.edu/users/princem/papers/cac-tr.pdf">Consistency, Availability, and Convergence</a> - Proves the upper bound for consistency possible in a typical system</li>
+<li><a href="http://www.glassbeam.com/sites/all/themes/glassbeam/images/blog/10.1.1.67.6951.pdf">CAP Conjecture</a> - Consistency, Availability, Parition Tolerance cannot all be satisfied at once</li>
+<li><a href="http://www.cs.utexas.edu/users/dahlin/papers/cac-tr.pdf">Consistency, Availability, and Convergence</a> - Proves the upper bound for consistency possible in a typical system</li>
 <li><a href="http://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed">CAP Twelve Years Later: How the "Rules" Have Changed</a> - Eric Brewer expands on the original tradeoff description</li>
 <li><a href="http://www.infoq.com/news/2008/01/consistency-vs-availability">Consistency and Availability</a> - Vogels</li>
 <li><a href="http://www.allthingsdistributed.com/2007/12/eventually_consistent.html">Eventual Consistency</a> - Vogels</li>
@@ -105,12 +102,12 @@
 	- Two phase commit isn't a silver bullet</li>
 <li><a href="https://blogs.msdn.microsoft.com/pathelland/2007/05/16/link-to-quotlife-beyond-distributed-transactions-an-apostates-opinion/">Life Beyond Distributed Transactions</a>
 	- Helland</li>
-<li><a href="http://queue.acm.org/detail.cfm?id=1953140">If you have
+<li><a href="http://queue.acm.org/detail.cfm?id=1988603">If you have
 	too much data, then 'good enough' is good enough</a> - NoSQL,
 	Future of data theory - Pat Helland</li>
 <li><a href="http://www.enterpriseintegrationpatterns.com/docs/IEEE_Software_Design_2PC.pdf">Starbucks doesn't do two phase commit</a> - Asynchronous mechanisms at work</li>
 <li><a href="http://codahale.com/you-cant-sacrifice-partition-tolerance/">You Can't Sacrifice Partition Tolerance</a> - Additional CAP commentary</li>
-<li><a href="http://www.ysaito.com/survey.pdf">Optimistic Replication</a> - Relaxed consistency approaches for data replication</li>
+<li><a href="http://www.hpl.hp.com/techreports/2002/HPL-2002-33.pdf">Optimistic Replication</a> - Relaxed consistency approaches for data replication</li>
 </ul>
 
 <h2>Theory</h2>
@@ -125,7 +122,7 @@
 <li><a href="http://citeseer.ist.psu.edu/356748.html">Unreliable Failure Detectors for Reliable Distributed Systems.</a> A method for handling the challenges of FLP</li>
 <li><a href="http://research.microsoft.com/users/lamport/pubs/time-clocks.pdf">Lamport Clocks</a> - How do you establish a global view of time when each computer's clock is independent</li>
 <li><a href="http://research.microsoft.com/users/lamport/pubs/byz.pdf">The Byzantine Generals Problem</a></li>
-<li><a href="http://citeseer.nj.nec.com/ladin90lazy.html">Lazy Replication: Exploiting the Semantics of Distributed Services</a></li>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.17.469">Lazy Replication: Exploiting the Semantics of Distributed Services</a></li>
 <li><a href="http://www.usenix.org/event/hotdep10/tech/full_papers/Kapritsos.pdf">Scalable Agreement - Towards Ordering as a Service</a></li>
 <li><a href="http://arxiv.org/pdf/1307.3207v1.pdf">Scalable Eventually Consistent Counters over Unreliable Networks</a> - Scalable counting is tough in an unreliable world</li>
 </ul>
@@ -135,7 +132,7 @@
 <p>Issues of distributed systems construction with specific technologies.</p>
 
 <ul>
-<li><a href="http://docmanual.com/Read/_vp.bWFuLmx1cGF3b3JsZC5jb20-_vp..sl_content.sl_develop.sl_p37-svensson.pdf">Programming Distributed Erlang Applications: Pitfalls and Recipes</a> - Building reliable distributed applications isn't as simple as merely choosing Erlang and OTP.</li>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.137.9417&rep=rep1&type=pdf">Programming Distributed Erlang Applications: Pitfalls and Recipes</a> - Building reliable distributed applications isn't as simple as merely choosing Erlang and OTP.</li>
 </ul>
 
 	
@@ -186,7 +183,7 @@
 
 <ul>
 <li><a href="http://pdos.csail.mit.edu/chord/papers/paper-ton.pdf">Chord</a>: A Scalable Peer-to-peer Lookup Protocol for Internet Applications</li>
-<li><a href="http://www.cs.rice.edu/Conferences/IPTPS02/109.pdf">Kademlia</a>: A Peer-to-peer Information System Based on the XOR Metric</li>
+<li><a href="https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf">Kademlia</a>: A Peer-to-peer Information System Based on the XOR Metric</li>
 <li><a href="http://research.microsoft.com/en-us/um/people/antr/PAST/pastry.pdf">Pastry</a>: Scalable, decentralized object location and routing for large-scale peer-to-peer systems</li>
 <li><a href="http://research.microsoft.com/en-us/um/people/antr/PAST/hotos.pdf">PAST</a>: A large-scale, persistent peer-to-peer storage utility - storage system atop Pastry</li>
 <li><a href="http://research.microsoft.com/en-us/um/people/antr/PAST/jsac.pdf">SCRIBE</a>: A large-scale and decentralised application-level multicast infrastructure - wide area messaging atop Pastry</li>
